@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vending Machine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="vending-machine">
+    <h1>Vending Machine</h1>
+    <div class="balance">Balance: $<span id="balance">5.00</span></div>
+    <div class="items">
+      <div class="item" onclick="buyItem('Soda', 1.25)">🥤 Soda - $1.25</div>
+      <div class="item" onclick="buyItem('Chips', 1.00)">🍟 Chips - $1.00</div>
+      <div class="item" onclick="buyItem('Candy', 0.75)">🍬 Candy - $0.75</div>
+    </div>
+    <div id="message" class="message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

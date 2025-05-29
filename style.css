@@ -1,0 +1,45 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .vending-machine {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .items {
+    margin: 20px 0;
+  }
+  
+  .item {
+    background: #e0e0e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .item:hover {
+    background: #c0ffc0;
+  }
+  
+  .balance {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
